@@ -1,0 +1,52 @@
+
+header { 
+    background-color: #782221;
+    width: 1160px;
+    height: 300px;
+    display: flex;
+    justify-content: center
+}
+
+figure {
+    width: 150px;
+    height: 150px;
+}
+
+#ImageA figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30%;
+    box-shadow: 0 0 30px black;
+
+}
+#ImageA figure img:hover {
+    cursor: zoom-in;
+}
+
+#PROFIL {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#NOM { 
+    height: 50px;
+    color: white;
+    font-size: large;
+}
+
+
+#ROLE {
+    color: white;
+}
+
+footer{ 
+    background-color: #782221;
+    width: 1160px;
+    height: 200px;
+}
+
+footer p {
+    text-align: center;
+}

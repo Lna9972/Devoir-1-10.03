@@ -1,0 +1,27 @@
+#A { 
+    order: 1;
+    width: 248px;
+    height: 1000px;
+}
+
+#B { 
+    order: 2;
+    width: 909px;
+    height: 600px;
+    background-color: white;
+}
+
+#C { 
+    order: 3;
+    width: 909px;
+    height: 200px;
+    background-color: white;
+}
+
+
+#BOX {
+    width: 1160px;
+    height: 800px;
+    background-color: #782221;
+    display: flex;
+}

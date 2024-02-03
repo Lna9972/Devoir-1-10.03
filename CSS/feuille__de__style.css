@@ -1,0 +1,67 @@
+html { 
+    background-color: white;
+    padding: 150px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+
+h1 { 
+    margin: 10px;
+    padding: 6px;
+    background-color: #dbc2a4;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+}
+
+h3 {
+    margin: 10px;
+}
+
+p { 
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+}
+
+
+#others { 
+    color: white;
+}
+
+#lang { 
+    color: white;
+}
+
+#text { 
+    color: white;
+    text-align: justify;
+    margin: 5px;
+}
+
+#B h1:hover{
+    border-left: 6px solid purple;
+    text-decoration: underline;
+}
+
+#ICONES { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#ICONES div:hover{
+    opacity: 0.5;
+}
+
+a {
+    color: white;
+}
